@@ -1,0 +1,15 @@
+[project]
+name = "adb-wrapper"
+version = "1.0.0"
+description = "A Python ADB wrapper for executing commands on multiple devices."
+authors = [
+    {name = "Terminus"}
+]
+license = {text = "MIT License"}
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = ["wget"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
